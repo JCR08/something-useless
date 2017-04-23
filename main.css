@@ -1,0 +1,45 @@
+#start{
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  width: 33%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+#randomGiph{
+  width: 100%;
+}
+
+#swansonQuote{
+  font-family: 'Russo One', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  width: 80%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/40/Fraxinus_excelsior_wood_tangent_section_1_beentree.jpg")
+}
+
+#quote{
+  background: lightgray;
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+}
+
+#firstQuote{
+  background-image: url("https://unsplash.it/500/500/?random");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  display: none;
+  width: 33%;
+  margin: auto;
+  margin-top: 5rem;
+}
