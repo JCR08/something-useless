@@ -1,14 +1,24 @@
+body{
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d6/0e/0b/d60e0b8cddad9cd53563de171e2e4af9.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
 #start{
-  height: 500px;
-  width: 500px;
+  height: auto;
+  width: auto;
   text-align: center;
   width: 33%;
   margin: auto;
   margin-top: 5rem;
+  border: solid black 2px;
 }
 
 #randomGiph{
-  width: 100%;
+  width: 98%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 #swansonQuote{
@@ -16,11 +26,11 @@
   font-size: 24px;
   font-weight: bold;
   width: 80%;
+  margin-bottom: 1%;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/40/Fraxinus_excelsior_wood_tangent_section_1_beentree.jpg")
 }
 
 #quote{
-  background: lightgray;
   text-align: center;
   font-family: 'Parisienne', cursive;
   color: white;
@@ -30,6 +40,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 20%;
+  margin-top: 1%;
 }
 
 #firstQuote{
@@ -38,8 +49,89 @@
   height: 500px;
   width: 500px;
   text-align: center;
-  display: none;
+  width: 98%;
+  margin: auto;
+}
+
+#firstQuote1{
+  height: auto;
+  width: auto;
+  text-align: center;
   width: 33%;
   margin: auto;
   margin-top: 5rem;
+  border: solid black 2px;
+  display: none;
+}
+
+#yodaSpeak{
+  display: none;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+#yodaTranslation{
+  color: white;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+}
+
+#waitMessage{
+  text-align: center;
+  font-family: 'Faster One', cursive;
+  font-size: 2rem;
+}
+
+#yodaButton{
+  font-family: 'Russo One', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: limegreen;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1%;
+  width: 80%;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/86/2a/8b/862a8b9f6c8c1e1b758866a1f0e4e61e--pictures-of-outer-space-space-images.jpg")
+}
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 1s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
 }
